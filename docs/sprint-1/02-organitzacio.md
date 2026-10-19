@@ -46,3 +46,6 @@ TecnoReparo és una microempresa formada per tres treballadors. Per a organitzar
 ## Organigrama
 
 L'organització de TecnoReparo és senzilla, ja que és una microempresa amb tres treballadors. El responsable coordina l'activitat i els dos tècnics s'encarreguen dels serveis informàtics.
+L'organigrama de TecnoReparo es mostra a continuació.
+
+![Organigrama de TecnoReparo](../../img/organigrama-tecnoreparo.png)
