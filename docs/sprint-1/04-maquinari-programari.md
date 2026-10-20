@@ -21,6 +21,7 @@ TecnoReparo necessita maquinari i programari per a gestionar l'empresa, reparar 
 | Disc dur extern | Reparació i manteniment | 1 | Guardar còpies de seguretat addicionals |
 | Eines de reparació | Reparació i manteniment | 1 joc | Obrir equips i substituir components |
 | Sistema operatiu | Tots els departaments | 4 instal·lacions | Permetre el funcionament dels ordinadors |
-| Suite ofimàtica | Direcció i administració | 1 instal·lació | Crear documents i gestionar fulls de càlcul |
-| Navegador web | Tots els departaments | 4 instal·lacions | Consultar documentació i serveis en línia |
-| Programari de diagnòstic | Reparació i manteniment | 2 instal
+| Programari de diagnòstic | Reparació i manteniment | 2 instal·lacions | Detectar avaries i comprovar el funcionament dels equips |
+| Programari de seguretat | Tots els departaments | 4 instal·lacions | Protegir els equips davant de programari maliciós |
+| Programari de còpies de seguretat | Direcció i administració | 1 instal·lació | Gestionar còpies de seguretat dels documents importants |
+| Programari ofimàtic | Direcció i administració | 1 instal·lació | Crear documents i gestionar fulls de càlcul |
