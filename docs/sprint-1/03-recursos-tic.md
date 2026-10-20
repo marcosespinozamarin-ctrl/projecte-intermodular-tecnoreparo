@@ -6,7 +6,7 @@ TecnoReparo necessita recursos tecnològics per a gestionar l'empresa, reparar o
 
 ## Equips informàtics
 
-L'empresa disposa de **3 ordinadors**, un per a cada treballador.
+L'empresa disposa de **3 ordinadors de sobretaula**, un per a cada treballador, i **1 ordinador portàtil auxiliar** per a realitzar proves i diagnòstics.
 
 - **Direcció i administració:** 1 ordinador per a gestionar cites, pressupostos, factures i documents.
 - **Reparació i manteniment:** 1 ordinador per a diagnosticar avaries, consultar documentació tècnica i instal·lar sistemes operatius.
