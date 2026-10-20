@@ -6,9 +6,11 @@
 
 **Ubicació:** Banyeres de Mariola, Alacant.
 
+**Tipus d'empresa:** Empresa real del sector de la reparació i l'assistència tècnica informàtica.
+
 ## Activitat i sector
 
-TecnoReparo és una empresa dedicada a la reparació, el manteniment i l'assistència tècnica d'equips informàtics. Pertany al sector terciari, ja que ofereix serveis als seus clients.
+TecnoReparo és una empresa dedicada als serveis de reparació i assistència tècnica d'equips informàtics i electrònics. Pertany al sector terciari, ja que la seua activitat principal consisteix a oferir serveis als clients.
 
 ## Productes i serveis
 
@@ -27,12 +29,31 @@ Els clients principals són particulars, estudiants, autònoms i petites emprese
 
 ## Dimensió de l'empresa
 
-TecnoReparo és una microempresa amb **3 treballadors**. Aquesta dimensió permet oferir un tracte pròxim i adaptar els serveis a les necessitats de cada client.
+No s'ha pogut verificar públicament el nombre exacte de treballadors de TecnoReparo. Per a desenvolupar aquest projecte acadèmic, es planteja una estructura de treball reduïda, adaptada a les necessitats d'un negoci local de reparació i assistència tècnica informàtica. Aquesta proposta és una estimació per al projecte, no una dada confirmada de l'empresa real.
 
 ## Facturació anual estimada
 
-S'estima una facturació anual de **60.000 €**. Aquesta xifra és una previsió fictícia per a una microempresa local que combina reparacions puntuals, manteniment d'equips i serveis d'assistència tècnica. La facturació real dependria del nombre de clients, dels serveis contractats i del preu de cada treball.
+No s'ha trobat una xifra pública verificada de la facturació anual de TecnoReparo. Per a aquest projecte acadèmic, es pot utilitzar una estimació orientativa basada en els ingressos possibles per reparacions, manteniment i assistència tècnica. Aquesta estimació no representa la facturació real de l'empresa.
 
 ## Estratègia d'atenció al client
 
-TecnoReparo aposta per una atenció personalitzada, una comunicació clara i la transparència en els pressupostos. Abans de realitzar una reparació, s'informa el client del problema detectat i del cost estimat. També es procura complir els terminis acordats i oferir recomanacions per a allargar la vida útil dels equips.
+Com a proposta per a aquest projecte, es planteja una atenció personalitzada, una comunicació clara i la transparència en els pressupostos. Abans de realitzar una reparació, s'informaria el client del problema detectat i del cost estimat. També es procuraria complir els terminis acordats i oferir recomanacions per a allargar la vida útil dels equips.
+
+## Empreses reals del mateix sector
+
+### 1. Keyto Informática
+
+**Activitat:** Empresa de serveis informàtics per a particulars i empreses.
+
+**Serveis:** Reparació d'ordinadors i portàtils, manteniment informàtic, configuració de xarxes, còpies de seguretat i venda d'equips.
+
+**Web oficial:** https://www.keytosl.com/
+
+### 2. RM Soluciones Digitales
+
+**Activitat:** Empresa dedicada a la reparació i als serveis tecnològics.
+
+**Serveis:** Reparació de mòbils i ordinadors, manteniment d'equips, assistència a domicili i muntatge d'ordinadors.
+
+**Web oficial:** https://rmsolucionesdigitales.com/
+
