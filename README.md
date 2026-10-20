@@ -12,6 +12,7 @@ Aquest projecte forma part del mòdul de Projecte Intermodular de 2n de SMX i de
 ## Membres de l'equip
 
 - Marcos Espinoza Marin
+- Nicolas Reig Carrion
 
 ## Documents del Sprint 1
 
