@@ -6,11 +6,11 @@
 
 **Ubicació:** Banyeres de Mariola, Alacant.
 
-**Tipus d'empresa:** Empresa real del sector de la reparació i l'assistència tècnica informàtica.
+**Tipus d'empresa:** Empresa fictícia creada per a aquest projecte acadèmic.
 
 ## Activitat i sector
 
-TecnoReparo és una empresa dedicada als serveis de reparació i assistència tècnica d'equips informàtics i electrònics. Pertany al sector terciari, ja que la seua activitat principal consisteix a oferir serveis als clients.
+TecnoReparo és una empresa fictícia dedicada a la reparació, el manteniment i l'assistència tècnica d'equips informàtics. Pertany al sector terciari, ja que la seua activitat principal consisteix a oferir serveis als clients.
 
 ## Productes i serveis
 
@@ -21,7 +21,7 @@ L'empresa ofereix els serveis següents:
 - Instal·lació i configuració de sistemes operatius.
 - Eliminació de programari maliciós i optimització d'equips.
 - Instal·lació de programes i configuració de perifèrics.
-- Assessorament tecnològic a particulars i empreses.
+- Assessorament tecnològic a particulars i petites empreses.
 
 ## Tipus de clients
 
@@ -29,31 +29,32 @@ Els clients principals són particulars, estudiants, autònoms i petites emprese
 
 ## Dimensió de l'empresa
 
-No s'ha pogut verificar públicament el nombre exacte de treballadors de TecnoReparo. Per a desenvolupar aquest projecte acadèmic, es planteja una estructura de treball reduïda, adaptada a les necessitats d'un negoci local de reparació i assistència tècnica informàtica. Aquesta proposta és una estimació per al projecte, no una dada confirmada de l'empresa real.
+TecnoReparo és una microempresa amb **3 treballadors**. Aquesta estructura es distribueix en tres àrees: direcció i administració, reparació i manteniment, i assistència tècnica. Aquesta organització permet oferir un tracte pròxim i repartir les responsabilitats segons les necessitats del negoci.
 
 ## Facturació anual estimada
 
-No s'ha trobat una xifra pública verificada de la facturació anual de TecnoReparo. Per a aquest projecte acadèmic, es pot utilitzar una estimació orientativa basada en els ingressos possibles per reparacions, manteniment i assistència tècnica. Aquesta estimació no representa la facturació real de l'empresa.
+S'estima una facturació anual de **60.000 €**. Aquesta quantitat és una previsió fictícia per al projecte, calculada com una mitjana aproximada de 5.000 € mensuals procedents de reparacions, manteniment i assistència tècnica. La xifra representa els ingressos estimats abans de descomptar les despeses de l'empresa, no els beneficis.
 
 ## Estratègia d'atenció al client
 
-Com a proposta per a aquest projecte, es planteja una atenció personalitzada, una comunicació clara i la transparència en els pressupostos. Abans de realitzar una reparació, s'informaria el client del problema detectat i del cost estimat. També es procuraria complir els terminis acordats i oferir recomanacions per a allargar la vida útil dels equips.
+TecnoReparo aposta per una atenció personalitzada, una comunicació clara i la transparència en els pressupostos. Abans de realitzar una reparació, s'informa el client del problema detectat i del cost estimat. També es procura complir els terminis acordats i oferir recomanacions per a allargar la vida útil dels equips.
 
 ## Empreses reals del mateix sector
 
+Les empreses següents serveixen com a referència per a comparar els serveis que podria oferir TecnoReparo. No formen part de l'empresa fictícia.
+
 ### 1. Keyto Informática
 
-**Activitat:** Empresa de serveis informàtics per a particulars i empreses.
+**Activitat:** Serveis informàtics per a particulars i empreses.
 
-**Serveis:** Reparació d'ordinadors i portàtils, manteniment informàtic, configuració de xarxes, còpies de seguretat i venda d'equips.
+**Serveis de referència:** Reparació d'ordinadors, manteniment informàtic i altres serveis tecnològics.
 
-**Web oficial:** https://www.keytosl.com/
+**Web:** [https://www.keytosl.com/](https://www.keytosl.com/)
 
 ### 2. RM Soluciones Digitales
 
-**Activitat:** Empresa dedicada a la reparació i als serveis tecnològics.
+**Activitat:** Serveis de reparació i assistència tecnològica.
 
-**Serveis:** Reparació de mòbils i ordinadors, manteniment d'equips, assistència a domicili i muntatge d'ordinadors.
+**Serveis de referència:** Reparació d'equips i altres serveis de suport tecnològic.
 
-**Web oficial:** https://rmsolucionesdigitales.com/
-
+**Web:** [https://rmsolucionesdigitales.com/](https://rmsolucionesdigitales.com/)
