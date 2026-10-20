@@ -5,9 +5,9 @@ Projecte intermodular de 2n SMX: TecnoReparo
 
 ## Presentació del projecte
 
-TecnoReparo és una empresa fictícia situada a Banyeres de Mariola (Alacant), dedicada a la reparació, el manteniment i l'assistència tècnica d'equips informàtics.
+TecnoReparo és una empresa situada a Banyeres de Mariola (Alacant), dedicada a la reparació, el manteniment i l'assistència tècnica d'equips informàtics.
 
-Aquest projecte forma part del mòdul de Projecte Intermodular de 2n de SMX i descriu les característiques, l'organització i els recursos tecnològics de l'empresa.
+Aquest projecte forma part del mòdul de Projecte Intermodular de 2n de SMX i descriu les característiques, l'organització i els recursos de l'empresa.
 
 ## Membres de l'equip
 
