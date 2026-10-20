@@ -12,7 +12,7 @@ TecnoReparo contribueix a l'ODS 8 mitjançant la prestació de serveis tècnics 
 
 **Mesura concreta:**
 
-Mantindre una formació tècnica contínua dels treballadors per a millorar les seues competències professionals i la qualitat de l'atenció als clients.
+Realitzar almenys una activitat de formació tècnica per treballador cada any, relacionada amb la reparació d'equips, la seguretat informàtica o l'atenció al client.
 
 ## ODS 12. Producció i consum responsables
 
@@ -22,7 +22,7 @@ La reparació i el manteniment dels ordinadors poden allargar la vida útil dels
 
 **Mesura concreta:**
 
-Prioritzar la reparació dels equips quan siga viable i gestionar adequadament els components i aparells electrònics que ja no es puguen reutilitzar, mitjançant punts autoritzats de recollida de residus electrònics.
+Prioritzar la reparació dels equips quan siga viable, reutilitzar els components que funcionen correctament i portar els residus electrònics que no es puguen aprofitar a un punt autoritzat de recollida.
 
 ## Conclusió
 
