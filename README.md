@@ -25,3 +25,14 @@ Aquest projecte forma part del mòdul de Projecte Intermodular de 2n de SMX i de
 ## Objectiu del projecte
 
 L'objectiu és documentar l'estructura i el funcionament de TecnoReparo, identificar els recursos necessaris per a la seua activitat i relacionar l'empresa amb pràctiques responsables i sostenibles.
+
+**Visita nuestro Trello:** [https://trello.com/b/pQ4m9kK2/tecnoreparo-sprint-1-copiar-nombre](https://trello.com/b/pQ4m9kK2/tecnoreparo-sprint-1-copiar-nombre)
+
+
+
+
+
+
+
+
+
