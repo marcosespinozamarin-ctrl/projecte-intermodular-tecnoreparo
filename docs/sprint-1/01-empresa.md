@@ -6,11 +6,11 @@
 
 **Ubicació:** Banyeres de Mariola, Alacant.
 
-**Tipus d'empresa:** Empresa fictícia creada per a aquest projecte acadèmic.
+**Tipus d'empresa:** Empresa creada per a aquest projecte acadèmic.
 
 ## Activitat i sector
 
-TecnoReparo és una empresa fictícia dedicada a la reparació, el manteniment i l'assistència tècnica d'equips informàtics. Pertany al sector terciari, ja que la seua activitat principal consisteix a oferir serveis als clients.
+TecnoReparo és una empresa dedicada a la reparació, el manteniment i l'assistència tècnica d'equips informàtics. Pertany al sector terciari, ja que la seua activitat principal consisteix a oferir serveis als clients.
 
 ## Productes i serveis
 
