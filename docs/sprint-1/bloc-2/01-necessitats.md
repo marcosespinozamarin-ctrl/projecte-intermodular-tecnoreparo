@@ -23,4 +23,6 @@ Per a desenvolupar la seua activitat, l'empresa necessita una solució TIC que f
 
 ## Fonts consultades
 
+Documentació del Bloc 1 del projecte: caracterització de l'empresa, organització i recursos TIC.
 
+Enunciat de l'activitat PI-Q.1.2 – Plantejament de solucions TIC.
