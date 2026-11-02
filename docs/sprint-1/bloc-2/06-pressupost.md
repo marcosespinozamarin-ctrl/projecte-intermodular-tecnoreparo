@@ -29,3 +29,45 @@ S'inclouen dos servidors físics independents: un per als serveis interns i un a
 | Navegador web | 3 | 0,00 € | 0,00 € |
 | Programari de còpies de seguretat lliure | 1 | 0,00 € | 0,00 € |
 | Programari
+
+Cost total del projecte
+
+Concepte
+
+Import
+
+Total de maquinari (IVA inclòs)
+
+1.355,67 €
+
+Total de programari i llicències
+
+0,00 €
+
+TOTAL DEL PROJECTE
+
+1.355,67 €
+
+Els preus de maquinari indicats inclouen l'IVA quan així s'indica en la font consultada. Els costos del programari corresponen a opcions lliures o gratuïtes, per la qual cosa no es preveuen pagaments per llicències.
+
+Justificació econòmica
+
+La proposta reutilitza els ordinadors clients existents i selecciona servidors reacondicionats per a reduir la inversió inicial. L'ús de programari lliure permet evitar costos addicionals de llicències.
+
+La compra de dos servidors físics independents permet separar els serveis interns del servidor web allotjat en la DMZ. Aquesta separació contribueix a millorar l'organització i la seguretat de la infraestructura.
+
+El pressupost és coherent amb els recursos descrits en 05-recursos.md. Les subscripcions de serveis al núvol no s'inclouen perquè encara no s'ha seleccionat cap proveïdor ni pla concret.
+
+Fonts de preus consultades
+
+Servidors reacondicionats – Servermall
+
+Router TP-Link VPN Gigabit – Amazon
+
+Switch NETGEAR GS308E – Amazon
+
+Punt d'accés Ubiquiti U6+ – Reichelt
+
+Disc dur extern Seagate Basic – Leroy Merlin
+
+Els preus són referències per a l'elaboració del projecte i no constitueixen una oferta comercial.
