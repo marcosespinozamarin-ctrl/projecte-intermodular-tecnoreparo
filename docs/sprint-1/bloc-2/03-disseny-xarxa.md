@@ -10,7 +10,7 @@ La xarxa està dissenyada per a connectar els equips de treball i els servidors,
 
 A continuació es mostra l'esquema de la xarxa proposada per a TecnoReparo.
 
-![Disseny de la xarxa de TecnoReparo](<img/Captura de pantalla de 2026-11-09 10-27-40.png>)
+![Disseny de la xarxa de TecnoReparo](img/disseny-xarxa.png)
 
 ## 3.3. Descripció de la infraestructura
 
