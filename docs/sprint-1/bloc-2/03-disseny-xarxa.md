@@ -20,23 +20,7 @@ La xarxa estarà formada pels següents elements:
 ## Esquema de la xarxa
 
 L'esquema es representa de manera simplificada:
-
-```text
-                         INTERNET
-                            |
-                      [Router/Firewall]
-                            |
-               +------------+------------+
-               |                         |
-         XARXA INTERNA                  DMZ
-               |                         |
-         [Switch central]          [Servidor web]
-               |
-       +-------+-------+-------+
-       |       |       |       |
-     [PC1]   [PC2]   [PC3] [Servidor]
-       |
-   [Punt d'accés Wi-Fi]
+![Disseny de la xarxa de TecnoReparo](img/Captura%20de%20pantalla%20de%202026-11-09%2010-27-40.png)
 ```
 
 ## Explicació dels components i connexions
