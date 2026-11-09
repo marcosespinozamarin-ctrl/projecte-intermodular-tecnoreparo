@@ -49,10 +49,11 @@ Cada targeta inclourà un títol, una breu descripció i la persona responsable.
 
 ## Tauler de Trello
 
-Enllaç al tauler de Trello: **[Afegir ací l'enllaç al tauler]**
+Enllaç al tauler de Trello: (https://trello.com/b/pQ4m9kK2/tecnoreparo-sprint-1-copiar-nombre)
 
 Captura del tauler:
 
-**[Afegir ací una captura de pantalla del tauler de Trello]**
+![Uploading image.png…]()
+
 
 La captura i l'enllaç permetran comprovar l'organització de les tasques, el seu estat i les persones responsables.
