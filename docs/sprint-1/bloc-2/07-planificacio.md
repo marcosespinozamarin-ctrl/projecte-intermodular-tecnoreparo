@@ -53,7 +53,7 @@ Enllaç al tauler de Trello: (https://trello.com/b/pQ4m9kK2/tecnoreparo-sprint-1
 
 Captura del tauler:
 
-![Uploading image.png…]()
+![Captura del tauler de Trello](../../../img/Captura%20de%20pantalla%20de%202026-11-09%2009-00-33.png)
 
 
 La captura i l'enllaç permetran comprovar l'organització de les tasques, el seu estat i les persones responsables.
