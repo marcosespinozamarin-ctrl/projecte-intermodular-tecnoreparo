@@ -1,73 +1,40 @@
-# 6. Pressupost de la solució TIC
+# 5. Recursos materials i programari
 
 ## Introducció
 
-El pressupost contempla els recursos necessaris per a implementar la infraestructura TIC de TecnoReparo. Els tres ordinadors de sobretaula existents es reutilitzaran, per la qual cosa no es comptabilitzen com una compra nova.
+Per a implementar la solució TIC de TecnoReparo serà necessari disposar d'equips informàtics, dispositius de xarxa, sistemes operatius i aplicacions.
 
-S'inclouen dos servidors físics independents: un per als serveis interns i un altre per a allotjar el servidor web de la DMZ. Els preus són orientatius i poden variar segons el proveïdor i la disponibilitat.
+Es reutilitzaran els tres ordinadors de sobretaula existents i s'incorporaran dos servidors físics reacondicionats: un per als serveis interns i un altre per a allotjar la web corporativa en una DMZ. Aquesta separació permet organitzar els serveis i millorar la seguretat de la infraestructura.
 
-## Pressupost de maquinari
+## Recursos materials
 
-| Descripció | Quantitat | Preu unitari (IVA inclòs) | Subtotal |
-|---|---:|---:|---:|
-| Ordinadors clients existents (reutilitzats) | 3 | 0,00 € | 0,00 € |
-| Servidor físic reacondicionat per a serveis interns | 1 | 520,00 € | 520,00 € |
-| Servidor físic reacondicionat per a la DMZ | 1 | 520,00 € | 520,00 € |
-| Router/firewall | 1 | 62,94 € | 62,94 € |
-| Switch Gigabit de 8 ports | 1 | 33,99 € | 33,99 € |
-| Punt d'accés Wi-Fi | 1 | 121,00 € | 121,00 € |
-| Disc dur extern per a còpies de seguretat | 1 | 62,74 € | 62,74 € |
-| Cablejat Ethernet Cat 6 | 1 lot | 35,00 € | 35,00 € |
-| **TOTAL** | | | **1.355,67 €** |
+| **Recurs** | **Quantitat** | **Funció** | **Requisits principals** | **Justificació** |
+|---|---:|---|---|---|
+| Ordinador de sobretaula | 3 | Equip de treball dels tres departaments | Processador actual, 8 GB de RAM com a mínim i connexió Ethernet | Permet realitzar les tasques administratives, tècniques i d'assistència. |
+| Servidor físic per a serveis interns | 1 | Centralitzar els serveis interns i els fitxers compartits | Processador multinúcli, 16 GB de RAM, SSD i connexió Gigabit Ethernet | Facilita la gestió dels recursos i la informació de l'empresa. |
+| Servidor físic per a la DMZ | 1 | Allotjar i publicar la web corporativa | Processador multinúcli, 8 GB de RAM com a mínim, SSD i connexió Ethernet | Permet separar el servei públic de la xarxa interna. |
+| Router/firewall | 1 | Connectar la xarxa amb Internet i controlar el trànsit | Ethernet Gigabit, firewall i suport per a xarxes separades | Protegeix i organitza les comunicacions. |
+| Switch Gigabit de 8 ports | 1 | Connectar els equips de la xarxa local | 8 ports Gigabit Ethernet | Proporciona connectivitat cablejada estable i possibilitat d'ampliació. |
+| Punt d'accés Wi-Fi | 1 | Connectar dispositius sense fil autoritzats | Wi-Fi 5 o superior i seguretat WPA2/WPA3 | Permet la connexió de dispositius mòbils. |
+| Cablejat Ethernet | 1 lot | Connectar els equips i dispositius de xarxa | Cable UTP Cat 6 | Assegura una connexió cablejada adequada. |
+| Disc dur extern per a còpies | 1 | Realitzar còpies de seguretat | Capacitat suficient i connexió USB 3.0 | Permet conservar una còpia local de la informació important. |
 
-## Programari i llicències
+## Recursos de programari
 
-| Programari o servei | Quantitat | Cost estimat | Subtotal |
-|---|---:|---:|---:|
-| Sistema operatiu Linux per als servidors | 2 | 0,00 € | 0,00 € |
-| Suite ofimàtica lliure | 3 | 0,00 € | 0,00 € |
-| Navegador web | 3 | 0,00 € | 0,00 € |
-| Programari de còpies de seguretat lliure | 1 | 0,00 € | 0,00 € |
-| Programari
+| **Programari** | **Quantitat** | **Funció** | **Justificació** |
+|---|---:|---|---|
+| Sistema operatiu Linux per als servidors | 2 | Gestionar els servidors interns i el servidor web de la DMZ | És un sistema estable, flexible i de cost de llicència nul. |
+| Sistema operatiu d'escriptori | 3 | Gestionar els ordinadors clients | Permet executar les aplicacions necessàries per als treballadors. Es reutilitzaran els sistemes instal·lats, si són compatibles. |
+| Suite ofimàtica lliure | 3 | Crear i editar documents, fulls de càlcul i presentacions | Permet realitzar les tasques administratives sense costos de llicència. |
+| Navegador web | 3 | Accedir a la web corporativa i als serveis d'Internet | És necessari per a la navegació i l'accés als serveis web. |
+| Servidor web Apache | 1 | Publicar la web corporativa | Permet allotjar la web en el servidor situat en la DMZ. |
+| Programari de còpies de seguretat | 1 | Realitzar i gestionar còpies de seguretat | Ajuda a protegir la informació davant possibles pèrdues. |
+| Firewall del router | 1 | Filtrar i controlar el trànsit de xarxa | Permet aplicar mesures de seguretat i controlar les comunicacions entre xarxes. |
 
-Cost total del projecte
+## Justificació dels recursos
 
-Concepte
+Els recursos seleccionats permeten implementar la infraestructura local amb dos servidors físics independents. El servidor intern centralitzarà els serveis de l'empresa, mentre que el servidor web es trobarà en una DMZ per a reduir l'exposició de la xarxa interna.
 
-Import
+La reutilització dels ordinadors clients i l'ús de servidors reacondicionats permeten reduir la inversió inicial. A més, l'ús de sistemes operatius i aplicacions lliures o gratuïtes contribueix a mantindre els costos de programari baixos.
 
-Total de maquinari (IVA inclòs)
-
-1.355,67 €
-
-Total de programari i llicències
-
-0,00 €
-
-TOTAL DEL PROJECTE
-
-1.355,67 €
-
-Els preus de maquinari indicats inclouen l'IVA quan així s'indica en la font consultada. Els costos del programari corresponen a opcions lliures o gratuïtes, per la qual cosa no es preveuen pagaments per llicències.
-
-Justificació econòmica
-
-La proposta reutilitza els ordinadors clients existents i selecciona servidors reacondicionats per a reduir la inversió inicial. L'ús de programari lliure permet evitar costos addicionals de llicències.
-
-La compra de dos servidors físics independents permet separar els serveis interns del servidor web allotjat en la DMZ. Aquesta separació contribueix a millorar l'organització i la seguretat de la infraestructura.
-
-El pressupost és coherent amb els recursos descrits en 05-recursos.md. Les subscripcions de serveis al núvol no s'inclouen perquè encara no s'ha seleccionat cap proveïdor ni pla concret.
-
-Fonts de preus consultades
-
-Servidors reacondicionats – Servermall
-
-Router TP-Link VPN Gigabit – Amazon
-
-Switch NETGEAR GS308E – Amazon
-
-Punt d'accés Ubiquiti U6+ – Reichelt
-
-Disc dur extern Seagate Basic – Leroy Merlin
-
-Els preus són referències per a l'elaboració del projecte i no constitueixen una oferta comercial.
+La relació detallada dels costos es presenta en `06-pressupost.md`.
