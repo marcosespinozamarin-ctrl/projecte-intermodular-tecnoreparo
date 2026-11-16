@@ -6,11 +6,11 @@ En aquest apartat creem les cinc màquines virtuals de TecnoReparo i instal·lem
 
 | Màquina | Funció | Sistema i versió | RAM | CPU | Disc | Amfitrió |
 |---|---|---|---|---|---|---|
-| `tr-router` | Servidor de comunicacions | Ubuntu Server 24.04 LTS | 1 GB | 1 | 20 GB | PC de Marcos |
-| `tr-srv-intern` | Servidor intern | Windows Server 2025 | 3 GB | 2 | 50 GB | PC de Marcos |
-| `tr-client-win` | Client Windows | Windows 11 | 4 GB | 2 | 64 GB | PC de Marcos |
-| `tr-client-lin` | Client Linux | Ubuntu Desktop 24.04 LTS | 2 GB | 2 | 25 GB | PC de Marcos |
-| `tr-dmz-web` | Servidor de la DMZ | Ubuntu Server 24.04 LTS | 1 GB | 1 | 20 GB | PC de Marcos |
+| tr-router | Servidor de comunicacions | Ubuntu Server 24.04 LTS | 1 GB | 1 | 20 GB | PC de Marcos |
+| tr-srv-intern | Servidor intern | Windows Server 2025 | 3 GB | 2 | 50 GB | PC de Marcos |
+| tr-client-win | Client Windows | Windows 11 | 4 GB | 2 | 64 GB | PC de Marcos |
+| tr-client-lin | Client Linux | Ubuntu Desktop 24.04 LTS | 2 GB | 2 | 25 GB | PC de Marcos |
+| tr-dmz-web | Servidor de la DMZ | Ubuntu Server 24.04 LTS | 1 GB | 1 | 20 GB | PC de Marcos |
 
 ## 2.2. Decisions d'instal·lació
 
@@ -27,13 +27,13 @@ Si cloneu alguna màquina, VirtualBox ha de generar una MAC nova. Comprovem que 
 
 | Màquina | Adaptador | MAC |
 |---|---|---|
-| `tr-router` | Adaptador 1 (NAT) | *(per omplir)* |
-| `tr-router` | Adaptador 2 (`tr-lan`) | *(per omplir)* |
-| `tr-router` | Adaptador 3 (`tr-dmz`) | *(per omplir)* |
-| `tr-srv-intern` | Adaptador 1 (`tr-lan`) | *(per omplir)* |
-| `tr-client-win` | Adaptador 1 (`tr-lan`) | *(per omplir)* |
-| `tr-client-lin` | Adaptador 1 (`tr-lan`) | *(per omplir)* |
-| `tr-dmz-web` | Adaptador 1 (`tr-dmz`) | *(per omplir)* |
+| tr-router | Adaptador 1 (NAT) | *(per omplir)* |
+| tr-router | Adaptador 2 (tr-lan) | *(per omplir)* |
+| tr-router | Adaptador 3 (tr-dmz) | *(per omplir)* |
+| tr-srv-intern | Adaptador 1 (tr-lan) | *(per omplir)* |
+| tr-client-win | Adaptador 1 (tr-lan) | *(per omplir)* |
+| tr-client-lin | Adaptador 1 (tr-lan) | *(per omplir)* |
+| tr-dmz-web | Adaptador 1 (tr-dmz) | *(per omplir)* |
 
 ## 2.4. Captures
 

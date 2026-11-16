@@ -6,9 +6,9 @@ En aquest apartat configurem les xarxes virtuals, els noms dels equips i les adr
 
 | Xarxa | Mode en VirtualBox | Nom | Adreça de xarxa |
 |---|---|---|---|
-| Exterior | NAT | — | `10.0.2.0/24` (la dona VirtualBox) |
-| LAN | Xarxa interna | `tr-lan` | `192.168.10.0/24` |
-| DMZ | Xarxa interna | `tr-dmz` | `192.168.20.0/24` |
+| Exterior | NAT | — | 10.0.2.0/24 (la dona VirtualBox) |
+| LAN | Xarxa interna | tr-lan | 192.168.10.0/24 |
+| DMZ | Xarxa interna | tr-dmz | 192.168.20.0/24 |
 
 Les tres xarxes són diferents i no se solapen. Només `tr-router` té connexió a l'exterior; la resta d'equips surten a través d'ell.
 
@@ -16,13 +16,13 @@ Les tres xarxes són diferents i no se solapen. Només `tr-router` té connexió
 
 | Equip | Interfície | Xarxa virtual | Mode | Adreça IP | Prefix | Passarel·la | DNS |
 |---|---|---|---|---|---|---|---|
-| `tr-router` | `enp0s3` | — | NAT | `10.0.2.15` (DHCP de VirtualBox) | /24 | `10.0.2.2` | `10.0.2.3` |
-| `tr-router` | `enp0s8` | `tr-lan` | Xarxa interna | `192.168.10.1` | /24 | — | — |
-| `tr-router` | `enp0s9` | `tr-dmz` | Xarxa interna | `192.168.20.1` | /24 | — | — |
-| `tr-srv-intern` | Ethernet | `tr-lan` | Xarxa interna | `192.168.10.20` | /24 | `192.168.10.1` | — |
-| `tr-client-win` | Ethernet | `tr-lan` | Xarxa interna | DHCP (`192.168.10.10`–`.19`) | /24 | `192.168.10.1` | — |
-| `tr-client-lin` | `enp0s3` | `tr-lan` | Xarxa interna | DHCP (`192.168.10.10`–`.19`) | /24 | `192.168.10.1` | — |
-| `tr-dmz-web` | `enp0s3` | `tr-dmz` | Xarxa interna | `192.168.20.10` | /24 | `192.168.20.1` | — |
+| tr-router | enp0s3 | — | NAT | 10.0.2.15 (DHCP de VirtualBox) | /24 | 10.0.2.2 | 10.0.2.3 |
+| tr-router | enp0s8 | tr-lan | Xarxa interna | 192.168.10.1 | /24 | — | — |
+| tr-router | enp0s9 | tr-dmz | Xarxa interna | 192.168.20.1 | /24 | — | — |
+| tr-srv-intern | Ethernet | tr-lan | Xarxa interna | 192.168.10.20 | /24 | 192.168.10.1 | — |
+| tr-client-win | Ethernet | tr-lan | Xarxa interna | DHCP (192.168.10.10–.19) | /24 | 192.168.10.1 | — |
+| tr-client-lin | enp0s3 | tr-lan | Xarxa interna | DHCP (192.168.10.10–.19) | /24 | 192.168.10.1 | — |
+| tr-dmz-web | enp0s3 | tr-dmz | Xarxa interna | 192.168.20.10 | /24 | 192.168.20.1 | — |
 
 - La ruta per defecte de `tr-router` ix per la interfície exterior (`enp0s3`).
 - Els servidors tenen adreça fixa. Els clients reben l'adreça per DHCP.
