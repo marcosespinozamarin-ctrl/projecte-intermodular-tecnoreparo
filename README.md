@@ -32,6 +32,16 @@ Aquest projecte forma part del mòdul de Projecte Intermodular de 2n de SMX i de
 11. [Pressupost](docs/sprint-1/bloc-2/06-pressupost.md)
 12. [Planificació](docs/sprint-1/bloc-2/07-planificacio.md)
 
+## Documents del Sprint 2 – Implantació de la infraestructura
+
+13. [Pla d'intervenció](docs/sprint-2/01-pla-intervencio.md)
+14. [Màquines virtuals](docs/sprint-2/02-maquines-virtuals.md)
+15. [Configuració de la xarxa](docs/sprint-2/03-configuracio-xarxa.md)
+16. [Servidor de comunicacions](docs/sprint-2/04-servidor-comunicacions.md)
+17. [Servei DHCP](docs/sprint-2/05-dhcp.md)
+18. [Proves de connectivitat](docs/sprint-2/06-proves-connectivitat.md)
+19. [Seguiment i incidències](docs/sprint-2/07-seguiment-incidencies.md)
+
 ## Objectiu del projecte
 
 L'objectiu és documentar l'estructura i el funcionament de TecnoReparo, identificar els recursos necessaris per a la seua activitat i relacionar l'empresa amb pràctiques responsables i sostenibles.
