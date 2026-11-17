@@ -11,7 +11,7 @@ Per a detectar les necessitats hem revisat les funcions de cada treballador, els
 | Element | Situació actual (Bloc 1) | Problema detectat |
 |---|---|---|
 | Ordinadors | 3 PC de sobretaula + 1 portàtil | No hi ha comptes centralitzats: cada PC té usuaris locals |
-| Documents | Guardats en cada PC i en un disc extern | No hi ha una carpeta comuna ni permisos per departament |
+| Documents | Guardats en cada PC, en un servei d'emmagatzematge al núvol i en un disc extern | No hi ha permisos per departament ni comptes centralitzats, i sense Internet no es pot accedir als documents del núvol. La nova solució (alternativa B) passa els documents al servidor intern i deixa d'usar el núvol. |
 | Xarxa | Router de l'operador | Tots els equips estan en la mateixa xarxa, també els equips dels clients |
 | Web | No en té | Els clients no poden consultar serveis ni l'estat de la reparació |
 | Còpies | 1 disc extern | No hi ha còpia fora de l'empresa ni planificació |
