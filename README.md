@@ -25,12 +25,12 @@ Aquest projecte forma part del mòdul de Projecte Intermodular de 2n de SMX i de
 ## Documents del Sprint 1 – Bloc 2: Disseny i planificació de la solució TIC
 
 6. [Necessitats de l'empresa](docs/sprint-1/bloc-2/01-necessitats.md)
-7. [Alternatives i viabilitat](docs/sprint-1/bloc-2/02-alternatives-viabilitat.md)
+7. [Alternatives, innovació i viabilitat](docs/sprint-1/bloc-2/02-alternatives-viabilitat.md)
 8. [Disseny de la xarxa](docs/sprint-1/bloc-2/03-disseny-xarxa.md)
-9. [Adreçament IP](docs/sprint-1/bloc-2/04-adreçament-ip.md)
-10. [Recursos necessaris](docs/sprint-1/bloc-2/05-recursos.md)
+9. [Adreçament IP](docs/sprint-1/bloc-2/04-adrecament-ip.md)
+10. [Recursos materials i humans](docs/sprint-1/bloc-2/05-recursos.md)
 11. [Pressupost](docs/sprint-1/bloc-2/06-pressupost.md)
-12. [Planificació](docs/sprint-1/bloc-2/07-planificacio.md)
+12. [Parts del projecte i planificació (Scrum i Trello)](docs/sprint-1/bloc-2/07-planificacio.md)
 
 ## Documents del Sprint 2 – Implantació de la infraestructura
 
@@ -44,15 +44,11 @@ Aquest projecte forma part del mòdul de Projecte Intermodular de 2n de SMX i de
 
 ## Objectiu del projecte
 
-L'objectiu és documentar l'estructura i el funcionament de TecnoReparo, identificar els recursos necessaris per a la seua activitat i relacionar l'empresa amb pràctiques responsables i sostenibles.
+Documentar l'empresa TecnoReparo, detectar les seues necessitats TIC i dissenyar una solució viable: una infraestructura local amb servidor de comunicacions (`tr-router`), servidor intern (`tr-srv-intern`), DMZ amb la web i el portal de seguiment de reparacions amb codi QR (`tr-dmz-web`) i una xarxa separada per als equips dels clients.
 
-**Visita nuestro Trello:** [https://trello.com/b/pQ4m9kK2/tecnoreparo-sprint-1-copiar-nombre](https://trello.com/b/pQ4m9kK2/tecnoreparo-sprint-1-copiar-nombre)
+- Diagrama de xarxa: [img/bloc-2/diagrama-xarxa.png](img/bloc-2/diagrama-xarxa.png)
+- Pressupost total de la solució: **6.033,85 € (IVA inclòs)** — veure [06-pressupost.md](docs/sprint-1/bloc-2/06-pressupost.md)
 
+## Tauler de Trello
 
-
-
-
-
-
-
-
+[TecnoReparo — Sprint 1](https://trello.com/b/pQ4m9kK2/tecnoreparo-sprint-1-copiar-nombre)

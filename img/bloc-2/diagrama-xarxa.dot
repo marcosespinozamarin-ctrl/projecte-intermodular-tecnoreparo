@@ -1,0 +1,45 @@
+digraph xarxa {
+  graph [rankdir=TB, fontname="Helvetica", fontsize=12, nodesep=0.45, ranksep=0.6, bgcolor="white", pad=0.3,
+         label="Topologia de xarxa de TecnoReparo (Bloc 2)", labelloc=t, fontsize=18];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, fillcolor="#ffffff", color="#555555"];
+  edge  [color="#444444", arrowhead=none, penwidth=1.4, fontname="Helvetica", fontsize=9];
+
+  internet [label="INTERNET", shape=ellipse, fillcolor="#e8eef7"];
+  isp [label="Router de l'operador (fibra)\nmode bridge / DMZ host\n192.168.1.1", fillcolor="#f2f2f2"];
+  fw  [label="tr-router\nSERVIDOR DE COMUNICACIONS / TALLAFOC\nProtectli V1410 · Ubuntu Server 24.04\nWAN 192.168.1.2 · LAN 192.168.10.1\nDMZ 192.168.20.1 · TALLER 192.168.30.1", fillcolor="#fde7c8", color="#c77700", penwidth=2];
+
+  internet -> isp [label=" Fibra"];
+  isp -> fw [label=" WAN"];
+
+  subgraph cluster_lan {
+    label="XARXA INTERNA (LAN) · 192.168.10.0/24"; style="rounded,filled"; fillcolor="#eaf3ff"; color="#2f6db5"; fontcolor="#2f6db5"; fontsize=13;
+    sw  [label="tr-sw01 · Switch TP-Link TL-SG1016PE\n16 ports Gigabit · 8 PoE+\n192.168.10.2", fillcolor="#d6e6ff"];
+    ap  [label="tr-ap01 · Punt d'accés Ubiquiti U6+\n(alimentat per PoE)\n192.168.10.3"];
+    srv [label="tr-srv-intern · Dell PowerEdge T160\nWindows Server 2025 Essentials\n192.168.10.20"];
+    imp [label="tr-impressora\nMultifunció de xarxa\n192.168.10.30"];
+    pc1 [label="tr-pc-direccio\nWindows 11 Pro\nDHCP"];
+    pc2 [label="tr-pc-reparacio\nWindows 11 Pro\nDHCP\n+ etiquetadora QR (USB)"];
+    pc3 [label="tr-pc-assistencia\nWindows 11 Pro\nDHCP"];
+    lap [label="tr-portatil\nUbuntu Desktop 24.04\nDHCP (Wi-Fi)"];
+    sw -> {srv imp pc1 pc2 pc3};
+    sw -> ap [label=" PoE"];
+    ap -> lap [style=dashed, label=" Wi-Fi WPA3"];
+  }
+
+  subgraph cluster_dmz {
+    label="DMZ · 192.168.20.0/24"; style="rounded,filled"; fillcolor="#ffecec"; color="#b52f2f"; fontcolor="#b52f2f"; fontsize=13;
+    web [label="tr-dmz-web · Mini PC Leotec N100\nUbuntu Server 24.04\nWeb corporativa + portal QR\n192.168.20.10"];
+  }
+
+  subgraph cluster_taller {
+    label="XARXA DE TALLER (proves) · 192.168.30.0/24"; style="rounded,filled"; fillcolor="#eefae9"; color="#3a8a2a"; fontcolor="#3a8a2a"; fontsize=13;
+    banc [label="Banc de proves\nEquips dels clients\nDHCP .100 - .150"];
+  }
+
+  fw -> sw  [label=" LAN"];
+  fw -> web [label=" DMZ"];
+  fw -> banc [label=" TALLER"];
+
+  sai [label="SAI APC BX1200MI-GR\nalimenta: servidor, tallafoc,\nswitch i mini PC web", shape=note, fillcolor="#fffbe0"];
+  {rank=same; isp; sai}
+}

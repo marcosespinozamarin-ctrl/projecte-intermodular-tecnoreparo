@@ -1,28 +1,54 @@
 # 1. Identificació de les necessitats TIC
 
-## Introducció
+## 1.1. Introducció
 
-TecnoReparo és una microempresa situada a Banyeres de Mariola, dedicada a la reparació, el manteniment i l'assistència tècnica d'equips informàtics. Està formada per tres treballadors distribuïts en les àrees de direcció i administració, reparació i manteniment, i assistència tècnica.
+TecnoReparo és una microempresa de Banyeres de Mariola que repara i manté equips informàtics. Té **3 treballadors** repartits en tres departaments (Bloc 1): direcció i administració, reparació i manteniment, i assistència tècnica.
 
-Per a desenvolupar la seua activitat, l'empresa necessita una solució TIC que facilite la comunicació entre els treballadors, l'accés a Internet, la gestió de documents, la seguretat de la informació i l'atenció als clients.
+Per a detectar les necessitats hem revisat les funcions de cada treballador, els equips que ja té l'empresa i la forma de treballar d'un taller de reparació (els equips dels clients entren, es reparen i es tornen).
 
-## Identificació de les necessitats
+## 1.2. Situació actual (punt de partida)
 
-| Departament | Necessitat TIC | Usuaris afectats | Justificació |
-|---|---|---|---|
-| Direcció i administració | Connexió a Internet i accés a la xarxa | 1 treballador | Permet gestionar cites, pressupostos, factures i comunicacions amb clients i proveïdors. |
-| Direcció i administració | Compartició i còpia de seguretat de fitxers | 1 treballador | Facilita l'accés als documents de l'empresa i ajuda a evitar la pèrdua d'informació. |
-| Direcció i administració | Impressió i escaneig | 1 treballador | És necessari per a gestionar documents administratius i factures. |
-| Reparació i manteniment | Accés a Internet i documentació tècnica | 1 treballador | Permet consultar manuals, actualitzacions i informació per a diagnosticar avaries. |
-| Reparació i manteniment | Programari de diagnòstic i eines tècniques | 1 treballador | Ajuda a identificar problemes i comprovar el funcionament dels equips reparats. |
-| Assistència tècnica | Connexió a la xarxa i accés a Internet | 1 treballador | Permet configurar programes, consultar informació i atendre incidències. |
-| Tots els departaments | Comptes d'usuari i control d'accés | 3 treballadors | Permet identificar els usuaris i limitar l'accés als documents segons les seues funcions. |
-| Tots els departaments | Seguretat informàtica | 3 treballadors | Protegeix els equips i la informació davant de programari maliciós i accessos no autoritzats. |
-| Tots els departaments | Xarxa interna cablejada i Wi-Fi | 3 treballadors | Permet connectar els ordinadors i altres dispositius de manera adequada. |
-| Empresa | Web corporativa o presència en línia | Clients i treballadors | Facilita que els clients coneguen els serveis i les formes de contacte de l'empresa. |
+| Element | Situació actual (Bloc 1) | Problema detectat |
+|---|---|---|
+| Ordinadors | 3 PC de sobretaula + 1 portàtil | No hi ha comptes centralitzats: cada PC té usuaris locals |
+| Documents | Guardats en cada PC i en un disc extern | No hi ha una carpeta comuna ni permisos per departament |
+| Xarxa | Router de l'operador | Tots els equips estan en la mateixa xarxa, també els equips dels clients |
+| Web | No en té | Els clients no poden consultar serveis ni l'estat de la reparació |
+| Còpies | 1 disc extern | No hi ha còpia fora de l'empresa ni planificació |
 
-## Fonts consultades
+## 1.3. Taula de necessitats
 
-Documentació del Bloc 1 del projecte: caracterització de l'empresa, organització i recursos TIC.
+| Núm. | Departament | Necessitat TIC | Usuaris afectats | Justificació |
+|---|---|---|---|---|
+| N1 | Tots | Xarxa interna cablejada i Wi-Fi segura | 3 treballadors + portàtil | Els PC, el servidor i la impressora s'han de comunicar. El portàtil del taller necessita Wi-Fi per a moure's pel local. |
+| N2 | Tots | Accés a Internet | 3 treballadors | Correu, proveïdors, controladors, manuals i actualitzacions. |
+| N3 | Tots | Comptes d'usuari centralitzats i permisos | 3 treballadors | Cada persona entra amb el seu usuari i només veu les carpetes del seu departament (control d'accés i RGPD). |
+| N4 | Tots | Compartició de fitxers | 3 treballadors | Una carpeta comuna i una per departament, guardades en el servidor i no en cada PC. |
+| N5 | Direcció i administració | Impressió i escaneig en xarxa | 3 treballadors (sobretot direcció) | Pressupostos, factures i resguards de reparació. |
+| N6 | Direcció i administració | Còpies de seguretat automàtiques | 3 treballadors | Factures i dades de clients no es poden perdre. Cal seguir la regla 3-2-1 que recomana INCIBE. |
+| N7 | Empresa / clients | Web corporativa | Clients + direcció | Donar a conéixer els serveis, horaris i contacte. |
+| N8 | Reparació i assistència | Seguiment de reparacions per al client | 2 tècnics + clients | Ara els clients telefonen per saber com va la reparació. Una consulta web amb codi QR estalvia temps (veure innovació, doc. 02). |
+| N9 | Reparació i manteniment | Xarxa separada per als equips dels clients | 1 tècnic (taller) | Els equips que arriben poden tindre virus. Si es connecten a la xarxa interna poden infectar el servidor. Necessiten Internet per a actualitzar, però aïllats. |
+| N10 | Tots | Seguretat perimetral (tallafoc) i DMZ | Tota l'empresa | La web és pública: ha d'estar separada de la xarxa interna perquè un atac a la web no arribe als PC ni al servidor. |
+| N11 | Tots | Alimentació protegida (SAI) | Tota l'empresa | Un tall de llum pot fer malbé el servidor o les dades. |
 
-Enunciat de l'activitat PI-Q.1.2 – Plantejament de solucions TIC.
+## 1.4. Relació necessitat → solució
+
+| Necessitat | Element de la solució (detallat en els documents 03, 04 i 05) |
+|---|---|
+| N1, N2 | Switch Gigabit PoE, punt d'accés Wi-Fi U6+ i servidor de comunicacions `tr-router` |
+| N3, N4 | Servidor intern `tr-srv-intern` amb Windows Server 2025 Essentials (domini i carpetes compartides) |
+| N5 | Impressora multifunció amb IP fixa |
+| N6 | Windows Server Backup + 2 discos externs en rotació |
+| N7, N8 | Servidor web `tr-dmz-web` en la DMZ + etiquetadora de codis QR |
+| N9 | Xarxa de taller 192.168.30.0/24 (només Internet) |
+| N10 | `tr-router` amb tallafoc i 3 xarxes separades |
+| N11 | SAI APC BX1200MI-GR |
+
+## 1.5. Fonts consultades
+
+- Documents del Bloc 1: [empresa](../01-empresa.md), [organització](../02-organitzacio.md), [recursos TIC](../03-recursos-tic.md) i [maquinari i programari](../04-maquinari-programari.md).
+- Enunciat de l'activitat PI-Q.1.2.
+- INCIBE – *Copias de seguridad: una guía de aproximación para el empresario* (regla 3-2-1): <https://www.incibe.es/empresas/blog/copias-seguridad-guia-aproximacion-el-empresario>
+- INCIBE – *Qué es una DMZ y cómo te puede ayudar a proteger tu empresa*: <https://www.incibe.es/empresas/blog/dmz-y-te-puede-ayudar-proteger-tu-empresa>
+- INCIBE – *Protege tu escaparate en Internet* (web pròpia o hosting): <https://www.incibe.es/empresas/blog/protege-tu-escaparate-internet>
