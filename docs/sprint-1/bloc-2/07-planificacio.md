@@ -43,19 +43,22 @@ Scrum organitza el treball en períodes curts anomenats **sprints**. Ho apliquem
 
 ![Captura del tauler de Trello](../../../img/bloc-2/trello-tauler.png)
 
-### Targetes del Bloc 2
+### Targetes que es veuen en la captura
 
-| Targeta | Descripció | Responsable | Part |
-|---|---|---|---|
-| Revisar departaments i treballadors | Revisar el Bloc 1 per a saber qui usa cada recurs | Marcos | Anàlisi |
-| Identificar necessitats TIC | Fer la taula de necessitats amb justificació i fonts | Marcos | Anàlisi |
-| Estudi d'alternatives | Comparar núvol (A) i local amb DMZ (B) i decidir en grup | Marcos i Nicolas | Disseny |
-| Innovació QR | Definir el portal de seguiment de reparacions | Nicolas | Disseny |
-| Diagrama de xarxa | Dibuixar LAN, DMZ, taller i servidor de comunicacions | Marcos | Disseny |
-| Pla IP | Fer la taula amb tots els dispositius i comprovar solapaments | Marcos | Disseny |
-| Recursos materials i humans | Triar equips, programari i perfils de la implantació | Nicolas | Disseny |
-| Pressupost | Buscar preus reals amb enllaç i calcular el total amb IVA | Nicolas | Disseny |
-| Revisar README i enllaços | Comprovar que tots els enllaços i imatges funcionen | Marcos | Documentació |
+| Targeta | Llista | Part del projecte |
+|---|---|---|
+| Identificar els departaments de l'empresa | Finalitzat | Anàlisi |
+| Explicar la relació amb l'ODS 8 | Finalitzat | Documentació (Bloc 1) |
+| Afegir enllaç de Trello | Finalitzat | Documentació |
+| Entregar l'enllaç | Finalitzat | Documentació |
+| Revisar el Sprint 1 | Pendent | Anàlisi / Disseny |
+| Millorar l'activitat de l'Sprint 1 segona part | Pendent | Disseny |
+| Canviar coses que estan mal de l'anterior Sprint | Pendent | Disseny |
+| Avisar a Jose que ja està solucionat | Pendent | Documentació |
+| Fer el pla d'intervenció | Pendent | Implantació (Sprint 2) |
+| Preparar els recursos | Pendent | Implantació (Sprint 2) |
+
+El responsable de cada targeta es veu en el tauler (avatar MM = Marcos, NR = Nicolas).
 
 ## 7.4. Diferència entre parts del projecte i Trello
 
