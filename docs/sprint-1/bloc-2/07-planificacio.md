@@ -45,20 +45,19 @@ Scrum organitza el treball en períodes curts anomenats **sprints**. Ho apliquem
 
 ### Targetes que es veuen en la captura
 
-| Targeta | Llista | Part del projecte |
-|---|---|---|
-| Identificar els departaments de l'empresa | Finalitzat | Anàlisi |
-| Explicar la relació amb l'ODS 8 | Finalitzat | Documentació (Bloc 1) |
-| Afegir enllaç de Trello | Finalitzat | Documentació |
-| Entregar l'enllaç | Finalitzat | Documentació |
-| Revisar el Sprint 1 | Pendent | Anàlisi / Disseny |
-| Millorar l'activitat de l'Sprint 1 segona part | Pendent | Disseny |
-| Canviar coses que estan mal de l'anterior Sprint | Pendent | Disseny |
-| Avisar a Jose que ja està solucionat | Pendent | Documentació |
-| Fer el pla d'intervenció | Pendent | Implantació (Sprint 2) |
-| Preparar els recursos | Pendent | Implantació (Sprint 2) |
+| Targeta | Llista | Responsable / etiqueta | Part del projecte |
+|---|---|---|---|
+| Millorar l'activitat de l'Sprint 1 segona part | Pendent | Marcos | Disseny |
+| Canviar coses que estan mal de l'anterior Sprint | Pendent | Marcos | Disseny |
+| Avisar a Jose que ja està solucionat | Pendent | Marcos | Documentació |
+| Revisar el Sprint 1 | Pendent | Nico | Anàlisi / Disseny |
+| Fer el pla d'intervenció | Pendent | Nico | Implantació (Sprint 2) |
+| Explicar la relació amb l'ODS 8 | Finalitzat | DOCS | Documentació (Bloc 1) |
+| Identificar els departaments de l'empresa | Finalitzat | BAIXA | Anàlisi |
+| Afegir enllaç de Trello | Finalitzat | MITJANA | Documentació |
+| Entregar l'enllaç | Finalitzat | ALTA | Documentació |
 
-El responsable de cada targeta es veu en el tauler (avatar MM = Marcos, NR = Nicolas).
+Les targetes pendents porten una etiqueta amb el nom del responsable (*marcos* o *nico*). Les finalitzades porten l'etiqueta de prioritat (ALTA, MITJANA, BAIXA o DOCS).
 
 ## 7.4. Diferència entre parts del projecte i Trello
 
