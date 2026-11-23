@@ -15,15 +15,15 @@ Aquest és el disseny de l'alternativa triada en [02-alternatives-viabilitat.md]
 | Component | Nom | Zona | Funció |
 |---|---|---|---|
 | Router de l'operador | — | Exterior | Connexió de fibra a Internet. Envia tot el trànsit a `tr-router` (mode *bridge* o *DMZ host*). |
-| Servidor de comunicacions | `tr-router` (Protectli V1410, Ubuntu Server 24.04) | Totes | Encamina entre zones, fa de tallafoc (iptables), NAT cap a Internet, DNAT de la web i DHCP per a LAN i taller. |
+| Servidor de comunicacions | `tr-router` (Protectli V1410, Ubuntu Server 26.04) | Totes | Encamina entre zones, fa de tallafoc (iptables), NAT cap a Internet, DNAT de la web i DHCP per a LAN i taller. |
 | Switch | `tr-sw01` (TP-Link TL-SG1016PE) | LAN | Connecta per cable tots els equips interns i alimenta el punt d'accés per PoE. |
 | Punt d'accés | `tr-ap01` (Ubiquiti U6+) | LAN | Wi-Fi WPA3/WPA2 només per a equips de l'empresa (portàtil i mòbils dels treballadors). |
 | Servidor intern | `tr-srv-intern` (Dell T160, Windows Server 2025 Essentials) | LAN | Domini, usuaris i grups, carpetes compartides, cua d'impressió i còpies de seguretat. |
 | Ordinadors | `tr-pc-direccio`, `tr-pc-reparacio`, `tr-pc-assistencia` | LAN | Llocs de treball dels 3 departaments (Windows 11 Pro, units al domini). |
-| Portàtil | `tr-portatil` (Ubuntu Desktop 24.04) | LAN (Wi-Fi) | Diagnòstic i proves pel taller. |
+| Portàtil | `tr-portatil` (Ubuntu Desktop 26.04) | LAN (Wi-Fi) | Diagnòstic i proves pel taller. |
 | Impressora | `tr-impressora` | LAN | Impressió i escaneig en xarxa. |
 | Etiquetadora | Brother QL-800 (USB al PC de reparació) | LAN | Imprimeix els codis QR del portal de reparacions. |
-| Servidor web | `tr-dmz-web` (Mini PC Leotec N100, Ubuntu Server 24.04) | DMZ | Web corporativa i portal de seguiment amb QR (Apache + PHP + MariaDB). |
+| Servidor web | `tr-dmz-web` (Mini PC Leotec N100, Ubuntu Server 26.04) | DMZ | Web corporativa i portal de seguiment amb QR (Apache + PHP + MariaDB). |
 | Banc de proves | — | Taller | Lloc on es connecten els equips dels clients per a actualitzar-los o provar-los. |
 | SAI | APC BX1200MI-GR | — | Protegix servidor, tallafoc, switch i servidor web dels talls de llum. |
 

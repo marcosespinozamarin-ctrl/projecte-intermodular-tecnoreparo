@@ -36,14 +36,14 @@
 | Windows Server 2025 Essentials (ROK Dell) | `tr-srv-intern` | 1 | Sistema operatiu del servidor intern | De pagament (594,30 €), fins a 25 usuaris i 50 dispositius, sense CAL |
 | Active Directory, DNS, servidor de fitxers i d'impressió | `tr-srv-intern` | 1 | Usuaris, grups, carpetes i impressió | Inclosos en Windows Server |
 | Windows Server Backup | `tr-srv-intern` | 1 | Còpia diària al disc extern | Inclòs en Windows Server |
-| Ubuntu Server 24.04 LTS | `tr-router`, `tr-dmz-web` | 2 | Sistema operatiu dels servidors Linux | Lliure (0 €) |
+| Ubuntu Server 26.04 LTS | `tr-router`, `tr-dmz-web` | 2 | Sistema operatiu dels servidors Linux | Lliure (0 €) |
 | iptables + iptables-persistent | `tr-router` | 1 | Tallafoc, NAT i DNAT | Lliure (0 €) |
 | isc-dhcp-server | `tr-router` | 1 | DHCP per a LAN i taller | Lliure (0 €) |
 | Apache 2, PHP i MariaDB | `tr-dmz-web` | 1 | Web i portal de reparacions | Lliure (0 €) |
 | Certbot (Let's Encrypt) | `tr-dmz-web` | 1 | Certificat HTTPS | Lliure (0 €) |
 | OpenSSH Server | `tr-router`, `tr-dmz-web` | 2 | Administració remota des de la LAN | Lliure (0 €) |
 | Windows 11 Pro | 3 PC | 3 | Sistema operatiu dels clients (pot unir-se al domini) | Ja instal·lat (llicència OEM existent) |
-| Ubuntu Desktop 24.04 LTS | Portàtil | 1 | Sistema del portàtil del taller | Lliure (0 €) |
+| Ubuntu Desktop 26.04 LTS | Portàtil | 1 | Sistema del portàtil del taller | Lliure (0 €) |
 | Eines de diagnòstic (GSmartControl, Memtest86+, Clonezilla) | Portàtil + PC reparació | 2 | Proves de discos, memòria i clonació | Lliure (0 €) |
 | LibreOffice | 3 PC | 3 | Documents, pressupostos i fulls de càlcul | Lliure (0 €) |
 | Navegador Firefox | 3 PC + portàtil | 4 | Internet i portal QR | Lliure (0 €) |

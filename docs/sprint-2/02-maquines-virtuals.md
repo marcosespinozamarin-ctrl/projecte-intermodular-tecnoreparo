@@ -6,11 +6,11 @@ En aquest apartat creem les cinc màquines virtuals de TecnoReparo i instal·lem
 
 | Màquina | Funció | Sistema i versió | RAM | CPU | Disc | Amfitrió |
 |---|---|---|---|---|---|---|
-| tr-router | Servidor de comunicacions | Ubuntu Server 24.04 LTS | 1 GB | 1 | 20 GB | PC de Marcos |
+| tr-router | Servidor de comunicacions | Ubuntu Server 26.04 LTS | 1 GB | 1 | 20 GB | PC de Marcos |
 | tr-srv-intern | Servidor intern | Windows Server 2025 | 3 GB | 2 | 50 GB | PC de Marcos |
 | tr-client-win | Client Windows | Windows 11 | 4 GB | 2 | 64 GB | PC de Marcos |
-| tr-client-lin | Client Linux | Ubuntu Desktop 24.04 LTS | 2 GB | 2 | 25 GB | PC de Marcos |
-| tr-dmz-web | Servidor de la DMZ | Ubuntu Server 24.04 LTS | 1 GB | 1 | 20 GB | PC de Marcos |
+| tr-client-lin | Client Linux | Ubuntu Desktop 26.04 LTS | 2 GB | 2 | 25 GB | PC de Marcos |
+| tr-dmz-web | Servidor de la DMZ | Ubuntu Server 26.04 LTS | 1 GB | 1 | 20 GB | PC de Marcos |
 
 ## 2.2. Decisions d'instal·lació
 

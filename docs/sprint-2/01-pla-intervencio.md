@@ -24,11 +24,11 @@ Mantenim l'adreçament: LAN `192.168.10.0/24` i DMZ `192.168.20.0/24`. Només ca
 
 | Màquina | Sistema | RAM | CPU | Disc | Xarxa |
 |---|---|---|---|---|---|
-| tr-router | Ubuntu Server 24.04 | 1 GB | 1 | 20 GB | NAT + tr-lan + tr-dmz |
+| tr-router | Ubuntu Server 26.04 | 1 GB | 1 | 20 GB | NAT + tr-lan + tr-dmz |
 | tr-srv-intern | Windows Server 2025 | 3 GB | 2 | 50 GB | tr-lan |
 | tr-client-win | Windows 11 | 4 GB | 2 | 64 GB | tr-lan |
-| tr-client-lin | Ubuntu Desktop 24.04 | 2 GB | 2 | 25 GB | tr-lan |
-| tr-dmz-web | Ubuntu Server 24.04 | 1 GB | 1 | 20 GB | tr-dmz |
+| tr-client-lin | Ubuntu Desktop 26.04 | 2 GB | 2 | 25 GB | tr-lan |
+| tr-dmz-web | Ubuntu Server 26.04 | 1 GB | 1 | 20 GB | tr-dmz |
 
 Totes les màquines estan en el mateix ordinador, per això les xarxes internes de VirtualBox es connecten sense problemes. També necessitem les ISO dels sistemes, GitHub, Trello i un editor de diagrames.
 

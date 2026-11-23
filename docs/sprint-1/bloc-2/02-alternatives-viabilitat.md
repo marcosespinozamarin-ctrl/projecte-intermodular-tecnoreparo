@@ -147,7 +147,7 @@ El U6+ es ven **sense injector PoE**: per això triem un switch PoE+ (abans l'AP
 
 **Compatibilitat dels equips clients:**
 - Els 3 PC tenen Windows 11 Pro. L'edició Pro és necessària per a unir-los al domini (Windows 11 Home no pot).
-- El portàtil del taller usa Ubuntu Desktop 24.04 (eines de diagnòstic lliures). Accedeix a les carpetes per SMB i no cal que estiga en el domini.
+- El portàtil del taller usa Ubuntu Desktop 26.04 (eines de diagnòstic lliures). Accedeix a les carpetes per SMB i no cal que estiga en el domini.
 - La impressora multifunció del Bloc 1 té connexió de xarxa: rep una IP fixa (.30).
 - L'etiquetadora QL-800 es connecta per USB al PC de reparació (té controladors per a Windows).
 
